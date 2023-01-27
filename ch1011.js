@@ -20,3 +20,22 @@ let foo = {
 }
 console.log(foo);
 console.log(foo['']);
+
+//덮어쓰기 가능하다
+let xee = {
+    name: "kim",
+    name: "Lee"
+};
+
+console.log (xee);
+
+
+let circle = {
+    radius: 5,
+    getDiameter: function () {
+        return 2 * this.radius;
+    }
+};
+
+console.log (circle);
+console.log (circle.getDiameter());
