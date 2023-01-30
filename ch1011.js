@@ -39,3 +39,4 @@ let circle = {
 
 console.log (circle);
 console.log (circle.getDiameter());
+
